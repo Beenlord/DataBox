@@ -1,20 +1,23 @@
 {
   "name": "databox",
   "version": "1.0.0",
-  "description": "Программа позволяет регулярно создаёт резервные копии папок и файлов, а так же ведёт журнал изменений в них.",
-  "main": "index.js",
+  "description": "Инструмент для бэкапов.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Beenlord/DataBox.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Beenlord",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Beenlord/DataBox/issues"
   },
-  "homepage": "https://github.com/Beenlord/DataBox#readme"
+  "homepage": "https://github.com/Beenlord/DataBox#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
